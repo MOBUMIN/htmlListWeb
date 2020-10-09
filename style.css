@@ -6,7 +6,7 @@ p{margin:10px; color:white;}
 @media(max-width:950px){
     #backvid{display:none;}
     body{
-    background-image: url("src/backimg.png");
+    background-image: url("src/backimg.PNG");
     }
     .up-logo{
         position:absolute;
