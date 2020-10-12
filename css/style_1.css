@@ -62,7 +62,7 @@ em{
     justify-content: center;
 }
 .left-btn:hover{
-    background: linear-gradient(to left,transparent,black);
+    background: linear-gradient(to left,transparent,#5cd0ab);
 }
 .right-btn{
     position: absolute;
@@ -75,7 +75,7 @@ em{
     justify-content: center;
 }
 .right-btn:hover{
-    background: linear-gradient(to left,black,transparent);
+    background: linear-gradient(to left,#5cd0ab,transparent);
 }
 .btn-letter{
     font-size:35px;
