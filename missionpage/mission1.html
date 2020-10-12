@@ -3,22 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>DSC - Mission1</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style_1.css">
     </head>
     <body>
+        <div class="frame">
+            <!-- background -->
             <video id="backvid" muted autoplay loop>
                 <source src="../src/background.mp4" type="video/mp4">
                 <strong>Your browser does not support the video tag</strong>
             </video>
-            <p class="up-logo">DSC UOS</p>
-            <p class="slogan">Connecting the Dots</p>
-            <span class="front">
-                <p>Frontend</p>
-                <p class="rectangle">바로가기</p>
-            </span>
-            <span class="back">
-                <p>Backend</p>
-                <p class="rectangle">바로가기</p>
-            </span>
+            <!-- header -->
+            <div class="header">
+                <div class="up-logo"><a href="../index.html" class="logo-link">DSC UOS</a></div>
+            </div>
+            <!-- content -->
+            <ul class="btns">
+                <li class="left-btn">
+                    <em>Frontend</em>
+                    <div class="btn-letter">프론트엔드</div>
+                    <div class="rectangle">바로가기</div>
+                </li>
+                <li class="right-btn">
+                    <em>Backend</em>
+                    <div class="btn-letter">백엔드</div>
+                    <div class="rectangle">바로가기</div>
+                </li>
+            </ul>
+            <p class="slogan">Connectiong the Dots</p>
+        </div>
     </body>
 </html>
