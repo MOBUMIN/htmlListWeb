@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap');
+body{font-family: 'Gothic A1', sans-serif;}
+p{font-family: 'Gothic A1', sans-serif; }
+.frame{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+}
+.header{
+    padding: 40px 10px;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.logo{
+    font-size:2em;
+    font-weight: bold;
+    background:#5457de;
+    color:#fff;
+    display: inline-block;
+    padding:0 8px;
+}
+.logo-link{
+    background:#5457de;
+    color:#fff;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.nav{
+    width:150px;
+    background: #333;
+    color:#fff;
+}
+.nav-list{
+    list-style: none;
+    margin:0;
+    padding: 10px 0;
+}
+.nav-item{
+    margin: 4px 0;
+}
+.nav-link{
+    display:block;
+    text-decoration:none;
+    padding:4px 10px;
+    color: #fff;
+}
+.nav-link:hover{
+    background: #5457de;
+}
+.content{
+    width:600px;
+}
+.footer {
+    text-align: center;
+    border-top: 1px solid #aaa;
+    margin: 20px 20px 0;
+    font-size: 12px;
+  }
