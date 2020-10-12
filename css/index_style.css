@@ -5,52 +5,60 @@ p{font-family: 'Gothic A1', sans-serif; }
     width: 800px;
     margin: 0 auto;
     border: 1px solid #aaa;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .header{
     padding: 40px 10px;
     text-align: center;
-    background: #eee;
-    margin-bottom: 20px;
+    background: #7a5c71;
+    margin-bottom: 10px;
 }
 .logo{
     font-size:2em;
     font-weight: bold;
-    background:#5457de;
     color:#fff;
     display: inline-block;
     padding:0 8px;
 }
 .logo-link{
-    background:#5457de;
+    background:#7a5c71;
     color:#fff;
     text-decoration: none;
+}
+.line{
+    border-bottom: 1px solid #aaa;
+    margin: 0 20px;
 }
 .container{
     display:flex;
     justify-content: space-between;
     overflow: hidden;
+    align-items: center;
 }
 .nav{
     width:150px;
-    background: #333;
+    background: #7a5c71;
     color:#fff;
+    border-radius: 0 5px 5px 0;
 }
 .nav-list{
     list-style: none;
     margin:0;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .nav-item{
-    margin: 4px 0;
+    margin: 10px 0;
 }
 .nav-link{
     display:block;
+    text-align: center;
     text-decoration:none;
-    padding:4px 10px;
+    padding:10px 10px;
     color: #fff;
 }
 .nav-link:hover{
-    background: #5457de;
+    background: #2b132b;
 }
 .content{
     width:600px;
