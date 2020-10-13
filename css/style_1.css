@@ -9,7 +9,7 @@ p{margin:10px; color:white;
     height: 100%;
 }
 .black_overlay{
-    display: none;
+    display: block;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -22,11 +22,10 @@ p{margin:10px; color:white;
     filter: alpha(opacity=80);
 }
 .white_content {
-    display: none;
+    display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 0%;
     width: 300px;
     height: 300px;;
     padding: 16px;
@@ -77,12 +76,12 @@ em{
     .logo-link{
         font-size: 40px;
     }
-    .slogan{ display:none;}
+    .slogan{ display:block;}
 }
 .btns{
     color:white;
     text-align: center;
-    list-style-type: none;
+    list-style-type: block;
 }
 .left-btn{
     position: absolute;
