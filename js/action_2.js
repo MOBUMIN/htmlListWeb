@@ -1,7 +1,8 @@
-
-var menu = document.querySelector(".menu-before");
-var nav = document.querySelector(".menu-after");
 function on_menu(){
-    menu.style.display='none';
-    nav.style.display='block';
+    $('.menu-text').css('display','none');
+    $('.nav').css('display','block');
+}
+function off_menu(){
+    $('.menu-text').css('display','inline');
+    $('.nav').css('display','none');
 }

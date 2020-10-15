@@ -1,21 +1,29 @@
+body{
+    margin:0;
+    font-size: 16px;
+}
 header{
     position:fixed;
-    width:100%;
-    height:76px;
+    width: 100vw;
+    height: 10vh;
     top:0; left:0;
     text-align: center;
+    font-size:1.5rem;
+    color: rgba(0, 0, 0, 0.75);
 }
-
-.menu-before{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    height: 100%;
+.menu{
+    display:flex;
+    align-items: center; justify-content: center;
+    width: 100%; height: 100%;
 }
-
-.menu-after{
+.nav{
     display:none;
-    align-items: center;
-    justify-content: center;
+    padding:0 15px;
+}
+.nav:hover{
+    
+}
+.contents{
+    display:flex;
+    padding: 10%
 }
