@@ -11,18 +11,23 @@ function off_menu(){
     for(var i=0;i<nav.length;i++)
         nav[i].style.display="none";
 }
+/* arrow */
+var left=document.getElementsByClassName("prev");
+var right=document.getElementsByClassName("next");
+function on_arrow(){
+    left[0].style.display="block";
+    right[0].style.display="block";
+}
+function off_arrow(){
+    left[0].style.display="none";
+    right[0].style.display="none";
+}
 
 /* carousel */
 
 var slideIdx=0;
 var slides = document.getElementsByClassName("slide");
 showSlides(slideIdx);
-
-function getSlideIdx(){
-    for(i=0;i<slides.length;i++){
-        if(slides[i].style.display=="block") return i;
-    }
-}
 
 function plusSlides(n){
     showSlides(slideIdx+=n);
