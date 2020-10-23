@@ -3,6 +3,10 @@ body{
     margin:0;
     font-size: 16px;
 }
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);;
+}
 header{
     position:fixed;
     width: 100%;
@@ -52,6 +56,7 @@ header{
 }
 .text{
     text-align: center;
+    font-size: small;
 }
 .prev, .next {
     cursor: pointer;
@@ -76,4 +81,24 @@ header{
 }
 .prev:hover, .next:hover {
     color: rgba(0,0,0,0.8);
+}
+
+.little-header{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.text-wrapper p{
+    width: 50%;
+    margin:0;
+    padding: 0 40px;
+}
+.bold{
+    font-weight: bold;
 }
