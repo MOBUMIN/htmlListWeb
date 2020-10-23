@@ -25,20 +25,37 @@ function off_arrow(){
 
 /* carousel */
 
-var slideIdx=0;
-var slides = document.getElementsByClassName("slide");
-showSlides(slideIdx);
+var slideIdx=[0,0];
+var slideID=["slide","slide2"]
+showSlides(0,0);
+showSlides(0,1);
 
-function plusSlides(n){
-    showSlides(slideIdx+=n);
+function plusSlides(n, no){
+    showSlides(slideIdx[no] += n, no);
 }
-
-function showSlides(n){
+function showSlides(n, no){
     var i;
-    if (n > slides.length-1) {slideIdx = 0}
-    if(n < 0) {slideIdx=slides.length-1}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    var x = document.getElementsByClassName(slideID[no]);
+    if (n > x.length-1) {slideIdx[no] = 0}
+    if (n < 0) {slideIdx[no] = x.length-1}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
     }
-    slides[slideIdx].style.display = "block";
+  x[slideIdx[no]].style.display = "block";
 }
+// var slides = document.getElementsByClassName("slide");
+// showSlides(slideIdx);
+
+// function plusSlides(n){
+//     showSlides(slideIdx+=n);
+// }
+
+// function showSlides(n){
+//     var i;
+//     if (n > slides.length-1) {slideIdx = 0}
+//     if(n < 0) {slideIdx=slides.length-1}
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIdx].style.display = "block";
+// }
