@@ -19,7 +19,9 @@
     </header>
     <!-- 목마1 -->
     <div class="contents" id="first" onmouseover="on_arrow()" onmouseout="off_arrow()" style="padding:80px 10px;">
-        <div class="slider">
+        <a class="prev" onclick="plusSlides(-1,0)">&#60;</a>
+        <a class="next" onclick="plusSlides(1,0)">&#62;</a>
+        <div class="slider" onclick="plusSlides(1,0)">
             <div class="slide">
                 <div class="img-div">
                     <img src="../src/misson2-1.jpg" alt="house">
@@ -29,16 +31,16 @@
                 </div>
             </div>
             <div class="slide">
-                <div class="img-div">
-                    <img src="../src/mission2-2.jpg" alt="white">
+                <div class="img-div-w">
+                    <img src="../src/mission2-2.jpg" alt="white" >
                     <div class="text">
                         900x600
                     </div>
                 </div>
             </div>
             <div class="slide">
-                <div class="img-div">
-                    <img src="../src/mission2-3.jpg" alt="mountain">
+                <div class="img-div-w">
+                    <img src="../src/mission2-3.jpg" alt="mountain" >
                     <div class="text">
                         900x600
                     </div>
@@ -52,8 +54,6 @@
                     </div>
                 </div>
             </div>
-            <a class="prev" onclick="plusSlides(-1,0)">&#60;</a>
-            <a class="next" onclick="plusSlides(1,1)">&#62;</a>
         </div>
         <div style="color:gray;text-align:center; padding-top:30px">&darr;</div>
     </div>
@@ -113,8 +113,10 @@
     </div>
 
     <!-- 목마2 -->
-    <div class="contents" id="second">
-        <div class="slider">
+    <div class="contents" id="second" style="position:relative">
+        <a class="prev2" onclick="plusSlides(-1,1)">&#60;</a>
+        <a class="next2" onclick="plusSlides(1,1)">&#62;</a>
+        <div class="slider" onclick="plusSlides(1,1)">
             <div class="slide2">
                 <div class="img-div">
                     <img src="../src/misson2-1.jpg" alt="house">
@@ -124,7 +126,7 @@
                 </div>
             </div>
             <div class="slide2">
-                <div class="img-div">
+                <div class="img-div-w">
                     <img src="../src/mission2-2.jpg" alt="white">
                     <div class="text">
                         900x600
@@ -132,7 +134,7 @@
                 </div>
             </div>
             <div class="slide2">
-                <div class="img-div">
+                <div class="img-div-w">
                     <img src="../src/mission2-3.jpg" alt="mountain">
                     <div class="text">
                         900x600
@@ -147,8 +149,6 @@
                     </div>
                 </div>
             </div>
-            <a class="prev" onclick="plusSlides(-1,0)">&#60;</a>
-            <a class="next" onclick="plusSlides(1,0)">&#62;</a>
         </div>
         <div style="color:gray;text-align:center; padding-top:30px">&darr;</div>
     </div>
@@ -205,6 +205,11 @@
                 I'm fine
             </p>
         </div>
+    </div>
+
+    <!-- footer -->
+    <div class="contents" id="footer" style="padding-top:0; text-align: center;">
+        <p>Contacts: <a href="https://github.com/MOBUMIN" target="_blank">github</a> or <a href="https://www.instagram.com/subinee_g/" target="_blank">Instagram</a></p>
     </div>
     <script src="../js/action_2.js"></script>
 </body>
