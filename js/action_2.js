@@ -14,13 +14,19 @@ function off_menu(){
 /* arrow */
 var left=document.getElementsByClassName("prev");
 var right=document.getElementsByClassName("next");
+var left2=document.getElementsByClassName("prev2");
+var right2=document.getElementsByClassName("next2");
 function on_arrow(){
     left[0].style.display="block";
     right[0].style.display="block";
+    left2[0].style.display="block";
+    right2[0].style.display="block";
 }
 function off_arrow(){
     left[0].style.display="none";
     right[0].style.display="none";
+    left2[0].style.display="none";
+    right2[0].style.display="none";
 }
 
 /* carousel */
