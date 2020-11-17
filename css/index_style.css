@@ -37,6 +37,7 @@ p{font-family: 'Gothic A1', sans-serif; }
     align-items: center;
 }
 .nav{
+    margin-top:20px;
     width:150px;
     background: #7a5c71;
     color:#fff;
@@ -62,6 +63,9 @@ p{font-family: 'Gothic A1', sans-serif; }
 }
 .content{
     width:600px;
+}
+.cb{
+    padding-right: 50px;
 }
 .footer {
     text-align: center;
